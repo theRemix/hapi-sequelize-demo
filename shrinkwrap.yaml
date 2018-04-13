@@ -1,0 +1,404 @@
+dependencies:
+  hapi: 17.3.1
+  hapi-sequelizejs: 1.1.0
+  inert: 5.1.0
+packages:
+  /accept/3.0.2:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-bghLXFkCOsC1Y2TZ51etWfKDs6q249SAoHTZVfzWWdlZxoij+mgkj9AmUJWQpDY48TfnrTDIe43Xem4zdMe7mQ==
+  /ammo/3.0.0:
+    dependencies:
+      boom: 6.0.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-6yoz9MXYV9sgCHrwprHWPxBaJ9/roQRfXzS//4JCNgKfPYcghFNwJQKBt6vWOoSGGRHsP6qsLJ+xtKStKJWdLQ==
+  /b64/4.0.0:
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-EhmUQodKB0sdzPPrbIWbGqA5cQeTWxYrAgNeeT1rLZWtD3tbNTnphz8J4vkXI3cPgBNlXBjzEbzDzq0Nwi4f9A==
+  /balanced-match/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+  /big-time/2.0.1:
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha1-aMffjcMPl+lT8lpnp2rJcTwWyd4=
+  /boom/6.0.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-LYLa8BmiiOWjvxTMVh73lcZzd2E5yczrKvxAny1UuzO2tkarLrw4tdp3rdfmus3+YfKcZP0vRSM3Obh+fGK6eA==
+  /boom/7.2.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha1-K/8kpVVldn/ehp7ICDF+sQxI6WY=
+  /bounce/1.2.0:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-8syCGe8B2/WC53118/F/tFy5aW00j+eaGPXmAUP7iBhxc+EBZZxS1vKelWyBCH6IqojgS2t1gF0glH30qAJKEw==
+  /brace-expansion/1.1.11:
+    dependencies:
+      balanced-match: 1.0.0
+      concat-map: 0.0.1
+    dev: false
+    resolution:
+      integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+  /call/5.0.1:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-ollfFPSshiuYLp7AsrmpkQJ/PxCi6AzV81rCjBwWhyF2QGyUY/vPDMzoh4aUcWyucheRglG2LaS5qkIEfLRh6A==
+  /catbox-memory/3.1.2:
+    dependencies:
+      big-time: 2.0.1
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-lhWtutLVhsq3Mucxk2McxBPPibJ34WcHuWFz3xqub9u9Ve/IQYpZv3ijLhQXfQped9DXozURiaq9O3aZpP91eg==
+  /catbox/10.0.2:
+    dependencies:
+      boom: 7.2.0
+      bounce: 1.2.0
+      hoek: 5.0.3
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-cTQTQeKMhWHU0lX8CADE3g1koGJu+AlcWFzAjMX/8P+XbkScGYw3tJsQpe2Oh8q68vOQbOLacz9k+6V/F3Z9DA==
+  /concat-map/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  /content/4.0.5:
+    dependencies:
+      boom: 7.2.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-wDP6CTWDpwCf791fNxlCCkZGRkrNzSEU/8ju9Hnr3Uc5mF/gFR5W+fcoGm6zUSlVPdSXYn5pCbySADKj7YM4Cg==
+  /cryptiles/4.1.1:
+    dependencies:
+      boom: 7.2.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-YuQUPbcOmaZsdvxJZ25DCA1W+lLIRoPJKBDKin+St1RCYEERSfoe1d25B1MvWNHN3e8SpFSVsqYvEUjp8J9H2w==
+  /fs.realpath/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+  /glob/7.1.2:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.3
+      minimatch: 3.0.4
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-MJTUg1kjuLeQCJ+ccE4Vpa6kKVXkPYJ2mOCQyUuKLcLQsdrMCpBPUi8qVE6+YuaJkozeA9NusTAw3hLr8Xe5EQ==
+  /hapi-sequelizejs/1.1.0:
+    dependencies:
+      glob: 7.1.2
+      hoek: 5.0.3
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.0.0'
+      npm: '>=5.6.0'
+    peerDependencies:
+      hapi: ^17.0.0
+      sequelize: ^4.x
+    resolution:
+      integrity: sha512-AMi6W18XwSNexR68ga3e6hMQbQFNJF25gwD9R1ZkTRVFL9BU5l3RpE7hN8wttCNDZiqielCDX/OfRMHOp+31Rg==
+  /hapi/17.3.1:
+    dependencies:
+      accept: 3.0.2
+      ammo: 3.0.0
+      boom: 7.2.0
+      bounce: 1.2.0
+      call: 5.0.1
+      catbox: 10.0.2
+      catbox-memory: 3.1.2
+      heavy: 6.1.0
+      hoek: 5.0.3
+      joi: 13.1.2
+      mimos: 4.0.0
+      podium: 3.1.2
+      shot: 4.0.5
+      statehood: 6.0.6
+      subtext: 6.0.7
+      teamwork: 3.0.1
+      topo: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-XsgmyBJ9oqAXbHS6Jv0zyfdlLDNTcUHA+P53g7O9iZxVAfb0Qkld0VTRm+DVN7pvcMYv8PJRykiupgmCjFehcw==
+  /heavy/6.1.0:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-TKS9DC9NOTGulHQI31Lx+bmeWmNOstbJbGMiN3pX6bF+Zc2GKSpbbym4oasNnB6yPGkqJ9TQXXYDGohqNSJRxA==
+  /hoek/5.0.3:
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-Bmr56pxML1c9kU+NS51SMFkiVQAb+9uFfXwyqR2tn4w2FPvmPt65eZ9aCcEfRXd9G74HkZnILC6p967pED4aiw==
+  /inert/5.1.0:
+    dependencies:
+      ammo: 3.0.0
+      boom: 7.2.0
+      bounce: 1.2.0
+      hoek: 5.0.3
+      joi: 13.1.2
+      lru-cache: 4.1.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    peerDependencies:
+      hapi: '>=17.0.0'
+    resolution:
+      integrity: sha512-5rJZbezGEkBN4QrP/HEEwsQ0N+7YzqDZrvBZrE7B0CrNY6I4XKI434aL3UNLCmbI4HzPGQs7Ae/4h1tiTMJ6Wg==
+  /inflight/1.0.6:
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  /iron/5.0.4:
+    dependencies:
+      boom: 7.2.0
+      cryptiles: 4.1.1
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-7iQ5/xFMIYaNt9g2oiNiWdhrOTdRUMFaWENUd0KghxwPUhrIH8DUY8FEyLNTTzf75jaII+jMexLdY/2HfV61RQ==
+  /isemail/3.1.2:
+    dependencies:
+      punycode: 2.1.0
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-zfRhJn9rFSGhzU5tGZqepRSAj3+g6oTOHxMGGriWNJZzyLPUK8H7VHpqKntegnW8KLyGA9zwuNaCoopl40LTpg==
+  /joi/13.1.2:
+    dependencies:
+      hoek: 5.0.3
+      isemail: 3.1.2
+      topo: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-bZZSQYW5lPXenOfENvgCBPb9+H6E6MeNWcMtikI04fKphj5tvFL9TOb+H2apJzbCrRw/jebjTH8z6IHLpBytGg==
+  /lru-cache/4.1.2:
+    dependencies:
+      pseudomap: 1.0.2
+      yallist: 2.1.2
+    dev: false
+    resolution:
+      integrity: sha512-wgeVXhrDwAWnIF/yZARsFnMBtdFXOg1b8RIrhilp+0iDYN4mdQcNZElDZ0e4B64BhaxeQ5zN7PMyvu7we1kPeQ==
+  /mime-db/1.33.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-BHJ/EKruNIqJf/QahvxwQZXKygOQ256myeN/Ew+THcAa5q+PjyTTMMeNQC4DZw5AwfvelsUrA6B67NKMqXDbzQ==
+  /mimos/4.0.0:
+    dependencies:
+      hoek: 5.0.3
+      mime-db: 1.33.0
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-JvlvRLqGIlk+AYypWrbrDmhsM+6JVx/xBM5S3AMwTBz1trPCEoPN/swO2L4Wu653fL7oJdgk8DMQyG/Gq3JkZg==
+  /minimatch/3.0.4:
+    dependencies:
+      brace-expansion: 1.1.11
+    dev: false
+    resolution:
+      integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  /nigel/3.0.1:
+    dependencies:
+      hoek: 5.0.3
+      vise: 3.0.0
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-kCVtUG9JyD//tsYrZY+/Y+2gUrANVSba8y23QkM5Znx0FOxlnl9Z4OVPBODmstKWTOvigfTO+Va1VPOu3eWSOQ==
+  /once/1.4.0:
+    dependencies:
+      wrappy: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+  /path-is-absolute/1.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  /pez/4.0.2:
+    dependencies:
+      b64: 4.0.0
+      boom: 7.2.0
+      content: 4.0.5
+      hoek: 5.0.3
+      nigel: 3.0.1
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-HuPxmGxHsEFPWhdkwBs2gIrHhFqktIxMtudISTFN95RQ85ZZAOl8Ki6u3nnN/X8OUaGlIGldk/l8p2IR4/i76w==
+  /podium/3.1.2:
+    dependencies:
+      hoek: 5.0.3
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-18VrjJAduIdPv7d9zWsfmKxTj3cQTYC5Pv5gtKxcWujYBpGbV+mhNSPYhlHW5xeWoazYyKfB9FEsPT12r5rY1A==
+  /pseudomap/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
+  /punycode/2.1.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha1-X4Y+3Im5bbCQdLrXlHvwkFbKTn0=
+  /shot/4.0.5:
+    dependencies:
+      hoek: 5.0.3
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha1-x+dFXRHWD2ts08Q+FaO0McF+VWY=
+  /statehood/6.0.6:
+    dependencies:
+      boom: 7.2.0
+      bounce: 1.2.0
+      cryptiles: 4.1.1
+      hoek: 5.0.3
+      iron: 5.0.4
+      joi: 13.1.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-jR45n5ZMAkasw0xoE9j9TuLmJv4Sa3AkXe+6yIFT6a07kXYHgSbuD2OVGECdZGFxTmvNqLwL1iRIgvq6O6rq+A==
+  /subtext/6.0.7:
+    dependencies:
+      boom: 7.2.0
+      content: 4.0.5
+      hoek: 5.0.3
+      pez: 4.0.2
+      wreck: 14.0.2
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-IcJUvRjeR+NB437Iq+LORFNJW4L6Knqkj3oQrBrkdhIaS2VKJvx/9aYEq7vi+PEx5/OuehOL/40SkSZotLi/MA==
+  /teamwork/3.0.1:
+    dev: false
+    engines:
+      node: '>=8.8.0'
+    resolution:
+      integrity: sha512-hEkJIpDOfOYe9NYaLFk00zQbzZeKNCY8T2pRH3I13Y1mJwxaSQ6NEsjY5rCp+11ezCiZpWGoGFTbOuhg4qKevQ==
+  /topo/3.0.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-Tlu1fGlR90iCdIPURqPiufqAlCZYzLjHYVVbcFWDMcX7+tK8hdZWAfsMrD/pBul9jqHHwFjNdf1WaxA9vTRRhw==
+  /vise/3.0.0:
+    dependencies:
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-kBFZLmiL1Vm3rHXphkhvvAcsjgeQXRrOFCbJb0I50YZZP4HGRNH+xGzK3matIMcpbsfr3I02u9odj4oCD0TWgA==
+  /wrappy/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+  /wreck/14.0.2:
+    dependencies:
+      boom: 7.2.0
+      hoek: 5.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    resolution:
+      integrity: sha512-QCm3omWNJUseqrSzwX2QZi1rBbmCfbFHJAXputLLyZ37VSiFnSYQB0ms/mPnSvrlIu7GVm89Y/gBNhSY26uVIQ==
+  /yallist/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  hapi: ^17.3.1
+  hapi-sequelizejs: ^1.1.0
+  inert: ^5.1.0
