@@ -42,7 +42,9 @@ const init = async () => {
         }
       }
     }
-  ])
+  ]);
+  
+  await server.register({ plugin : require('hapi-locale-17'), options : { locales : require('./content/locales') }});
   await server.register({ plugin : require('./static'), options : { publicPath }});
   await server.register({ plugin : require('./api'), routes: { prefix: '/api' } });
   await server.start();

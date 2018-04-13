@@ -1,5 +1,6 @@
 dependencies:
   hapi: 17.3.1
+  hapi-locale-17: 2.0.11
   hapi-sequelizejs: 1.1.0
   inert: 5.1.0
   joi: 13.1.2
@@ -13,6 +14,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+  /accept-language-parser/1.5.0:
+    dev: false
+    resolution:
+      integrity: sha1-iHfFQECo3LWeCgfZwf3kIpgzR5E=
   /accept/3.0.2:
     dependencies:
       boom: 7.2.0
@@ -702,6 +707,17 @@ packages:
       uglify-js: 2.8.29
     resolution:
       integrity: sha1-Ywo13+ApS8KB7a5v/F0yn8eYLcw=
+  /hapi-locale-17/2.0.11:
+    dependencies:
+      accept-language-parser: 1.5.0
+      rind-locale: 0.0.3
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    peerDependencies:
+      hapi: '>=17.x.x'
+    resolution:
+      integrity: sha512-pj3rr78OvYeeFU021I4zRRIGWueKUjvBz5yo+Nu31aLeLzZnv+HgGDOBbXTr2DAr7IM8a2QyJpwN/l3AonrnJw==
   /hapi-sequelizejs/1.1.0:
     dependencies:
       glob: 7.1.2
@@ -1585,6 +1601,10 @@ packages:
     optional: true
     resolution:
       integrity: sha1-YTObci/mo1FWiSENJOFMlhSGE+8=
+  /rind-locale/0.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-jjv0XzSXyDZfHFtrns03gcMizV8=
   /safe-buffer/5.1.1:
     dev: true
     resolution:
@@ -2093,6 +2113,7 @@ shrinkwrapMinorVersion: 4
 shrinkwrapVersion: 3
 specifiers:
   hapi: ^17.3.1
+  hapi-locale-17: ^2.0.11
   hapi-sequelizejs: ^1.1.0
   hapi-swaggered: ^3.0.3
   hapi-swaggered-ui: ^3.0.2

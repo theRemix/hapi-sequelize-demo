@@ -33,7 +33,7 @@ module.exports = {
       },
       handler:function(request,h) {
       
-        return 'hello world';
+        return `hello world. locale: ${request.getLocale()}`;
       }
     });
 
