@@ -1,5 +1,6 @@
 const Hapi = require('hapi');
 const PORT = process.env.PORT;
+const publicPath = 'public';
 
 // Create a server with a host and port
 const server = Hapi.server({
@@ -9,8 +10,8 @@ const server = Hapi.server({
 
 const init = async () => {
   await server.register(require('inert'));
-  await require('./static')(server);
-  await require('./api')(server);
+  await server.register({ plugin : require('./static'), options : { publicPath }});
+  await server.register({ plugin : require('./api'), routes: { prefix: '/api' } });
   await server.start();
 
   console.log(`Server running at: ${server.info.uri}`);
