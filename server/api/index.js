@@ -6,7 +6,7 @@ const bookSchema = Joi.object({
   isbn: Joi.string().length(10),
   pageCount: Joi.number(),
   datePublished: Joi.date().iso()
-}).label('Book');
+}).meta({ className: 'Book', description : 'Book objects stored in memory' });
 
 const books = [
   {
