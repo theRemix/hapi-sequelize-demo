@@ -9,6 +9,8 @@ const server = Hapi.server({
 });
 
 const init = async () => {
+
+  // @DEV BEGIN
   await server.register([
     require('inert'),
     require('vision'),
@@ -44,6 +46,16 @@ const init = async () => {
     }
   ]);
   
+  await server.register({ plugin: require('hapijs-status-monitor'),
+    options: {
+      title: 'My Status Monitor',
+      routeConfig: {
+        auth: false
+      }
+    } 
+  });
+  // @DEV END
+
   await server.register({ plugin : require('hapi-locale-17'), options : { locales : require('./content/locales') }});
   await server.register({ plugin : require('./static'), options : { publicPath }});
   await server.register({ plugin : require('./api'), routes: { prefix: '/api' } });
